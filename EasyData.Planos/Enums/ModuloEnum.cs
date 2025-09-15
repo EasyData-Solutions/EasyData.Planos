@@ -13,99 +13,98 @@ namespace EasyData.Planos.Enums
         [Modulo(PlanoEnum.Complementos, "Configurações")]
         Configuracao = 0,
 
-        [Description("CTe")]
+        [Modulo(PlanoEnum.Complementos, "CTe")]
         CTe = 1,
 
-        [Description("Email")]
+        [Modulo(PlanoEnum.Complementos, "Email")]
         Email = 2,
 
-        [Description("Integração Maquina de Tintas")]
+        [Modulo(PlanoEnum.Complementos, "Integração Maquina de Tintas")]
         IntegracaoMaquinaTintas = 3,
 
-        [Description("Produtos Fotos")]
+        [Modulo(PlanoEnum.Complementos, "Produtos Fotos")]
         ProdutosFotos = 4,
 
-        [Description("TEF")]
+        [Modulo(PlanoEnum.Complementos, "TEF")]
         TEF = 5,
 
-        [Description("Vendas Externas")]
+        [Modulo(PlanoEnum.Complementos, "Vendas Externas")]
         VendasExternas = 6,
 
-        [Description("Compras")]
+        [Modulo(PlanoEnum.Gold, "Compras")]
         Compras = 7,
 
-        [Description("Contabilidade")]
+        [Modulo(PlanoEnum.Gold, "Contabilidade")]
         Contabilidade = 8,
 
-        [Description("Formação de Preço em Lote")]
+        [Modulo(PlanoEnum.Gold, "Formação de Preço em Lote")]
         FormacaoPrecoLote = 9,
 
-        [Description("Logistica")]
+        [Modulo(PlanoEnum.Gold, "Logistica")]
         Logistica = 10,
 
-        [Description("Lotes")]
+        [Modulo(PlanoEnum.Gold, "Lotes")]
         Lotes = 11,
 
-        [Description("MDFe")]
+        [Modulo(PlanoEnum.Gold, "MDFe")]
         MDFe = 12,
 
-        [Description("Anexos")]
+        [Modulo(PlanoEnum.Lite, "Anexos")]
         Anexos = 13,
 
-        [Description("Cadastros")]
+        [Modulo(PlanoEnum.Lite, "Cadastros")]
         Cadastros = 14,
 
-        [Description("Estoque")]
+        [Modulo(PlanoEnum.Lite, "Estoque")]
         Estoque = 15,
 
-        [Description("MDe")]
+        [Modulo(PlanoEnum.Lite, "MDe")]
         MDe = 16,
 
-        [Description("Comandos Basicos")]
+        [Modulo(PlanoEnum.Lite, "Menu")]
         Menu = 17,
 
-        [Description("NFCe")]
+        [Modulo(PlanoEnum.Lite, "NFCe")]
         NFCe = 18,
 
-        [Description("NFe")]
+        [Modulo(PlanoEnum.Lite, "NFe")]
         NFe = 19,
 
-        [Description("Nota Fiscal Entrada")]
+        [Modulo(PlanoEnum.Lite, "Nota Fiscal Entrada")]
         NotaFiscalEntrada = 20,
 
-        [Description("Relatorios")]
+        [Modulo(PlanoEnum.Lite, "Relatorios")]
         Relatorios = 21,
 
-        [Description("Vendas")]
+        [Modulo(PlanoEnum.Lite, "Vendas")]
         Vendas = 22,
 
-        [Description("Conciliação Bancaria")]
+        [Modulo(PlanoEnum.Premium, "Conciliação Bancaria")]
         ConciliacaoBancaria = 23,
 
-        [Description("Filiais")]
+        [Modulo(PlanoEnum.Premium, "Filiais")]
         Filiais = 24,
 
-        [Description("Locais de Estoque")]
+        [Modulo(PlanoEnum.Premium, "Locais de Estoque")]
         LocaisEstoque = 25,
 
-        [Description("Produção")]
+        [Modulo(PlanoEnum.Premium, "Produção")]
         Producao = 26,
 
-        [Description("Cobrança API")]
+        [Modulo(PlanoEnum.Start, "Cobrança API")]
         CobrancaAPI = 27,
 
-        [Description("Cobrança CNAB")]
+        [Modulo(PlanoEnum.Start, "Cobrança CNAB")]
         CobrancaCNAB = 28,
 
-        [Description("Conhecimento Frete Entrada")]
+        [Modulo(PlanoEnum.Start, "Conhecimento Frete Entrada")]
         CTeEntrada = 29,
 
-        [Description("Financeiro")]
+        [Modulo(PlanoEnum.Start, "Financeiro")]
         Financeiro = 30,
 
-        [Description("Graficos")]
+        [Modulo(PlanoEnum.Start, "Graficos")]
         Graficos = 31,
-
 
     }
 }
