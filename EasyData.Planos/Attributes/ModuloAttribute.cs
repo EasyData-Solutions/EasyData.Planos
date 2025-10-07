@@ -14,10 +14,10 @@ namespace EasyData.Planos.Attributes
 
         public string ModuloAlias { get; }
 
-        public ModuloAttribute(PlanoEnum plano, string moduloAlias)
+        public ModuloAttribute(PlanoEnum _plano, string _moduloAlias)
         {
-            Plano = plano;
-            ModuloAlias = ModuloAlias;
+            Plano = _plano;
+            ModuloAlias = _moduloAlias;
         }
     }
 }

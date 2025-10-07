@@ -17,32 +17,32 @@ namespace EasyData.Planos.Attributes
 
         public string ControleAlias { get; }
 
-        public PermissaoAttribute(ModuloEnum modulo, string controleAlias, PlanoEnum plano)
+        public PermissaoAttribute(ModuloEnum _modulo, string _controleAlias, PlanoEnum _plano)
         {
-            var plano_modulo = modulo.GetType().GetCustomAttribute<ModuloAttribute>(inherit: true);
+            var plano_modulo = _modulo.GetType().GetCustomAttribute<ModuloAttribute>(inherit: true);
 
-            if(plano != null)
-                Plano = plano;
+            if(_plano != null)
+                Plano = _plano;
             else if(plano_modulo != null)
                 Plano = plano_modulo.Plano;
             else
-                throw new ArgumentException("O parâmetro plano é obrigatório quando o módulo não possui o atributo ModuloAttribute.");
+                Plano = PlanoEnum.Complementos;
 
-            Modulo = modulo;
-            ControleAlias = controleAlias;
+            Modulo = _modulo;
+            ControleAlias = _controleAlias;
         }
 
-        public PermissaoAttribute(ModuloEnum modulo, string controleAlias)
+        public PermissaoAttribute(ModuloEnum _modulo, string _controleAlias)
         {
-            var plano_modulo = modulo.GetType().GetCustomAttribute<ModuloAttribute>(inherit: true);
+            var plano_modulo = _modulo.GetType().GetCustomAttribute<ModuloAttribute>(inherit: true);
 
-            if(plano_modulo != null)
+            if (plano_modulo != null)
                 Plano = plano_modulo.Plano;
             else
-                throw new ArgumentException("O parâmetro plano é obrigatório quando o módulo não possui o atributo ModuloAttribute.");
+                Plano = PlanoEnum.Complementos;
 
-            Modulo = modulo;
-            ControleAlias = controleAlias;
+            Modulo = _modulo;
+            ControleAlias = _controleAlias;
         }
     }
 }
