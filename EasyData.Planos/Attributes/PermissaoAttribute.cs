@@ -34,10 +34,11 @@ namespace EasyData.Planos.Attributes
 
         public PermissaoAttribute(ModuloEnum _modulo, string _controleAlias)
         {
-            var plano_modulo = _modulo.GetType().GetCustomAttribute<ModuloAttribute>(inherit: true);
+            var field = _modulo.GetType().GetField(_modulo.ToString());
+            var attribute = field?.GetCustomAttribute<ModuloAttribute>(true);
 
-            if (plano_modulo != null)
-                Plano = plano_modulo.Plano;
+            if (attribute != null)
+                Plano = attribute.Plano;
             else
                 Plano = PlanoEnum.Complementos;
 
