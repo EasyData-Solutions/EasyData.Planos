@@ -106,5 +106,8 @@ namespace EasyData.Planos.Enums
         [Modulo(PlanoEnum.Start, "Graficos")]
         Graficos = 31,
 
+        [Modulo(PlanoEnum.Complementos, "Comissão")]
+        Comissao = 32,
+
     }
 }
