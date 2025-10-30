@@ -12,50 +12,57 @@ namespace EasyData.Planos.Enums
     {
         #region Lite
 
+        [Modulo(PlanoEnum.Lite, "Menu")]
+        Menu = 100,
+
         [Modulo(PlanoEnum.Lite, "Configurações")]
-        Configuracao = 100,
+        Configuracao = 101,
 
         [Modulo(PlanoEnum.Lite, "Clientes")]
-        Clientes = 101,
+        Clientes = 102,
 
         [Modulo(PlanoEnum.Lite, "Fornecedor")]
-        Fornecedor = 102,
+        Fornecedor = 103,
 
         [Modulo(PlanoEnum.Lite, "Usuarios")]
-        Usuarios = 103,
+        Usuarios = 104,
 
         [Modulo(PlanoEnum.Lite, "Produtos")]
-        Produtos = 104,
+        Produtos = 105,
 
         [Modulo(PlanoEnum.Lite, "Tributação")]
-        Tributacao = 105,
+        Tributacao = 106,
 
         [Modulo(PlanoEnum.Lite, "Contas Bancárias")]
-        ContasBancarias = 106,
+        ContasBancarias = 107,
 
         [Modulo(PlanoEnum.Lite, "Cartões")]
-        Cartoes = 107,
+        Cartoes = 108,
 
         [Modulo(PlanoEnum.Lite, "Favorecido")]
-        Favorecido = 108,
+        Favorecido = 109,
 
         [Modulo(PlanoEnum.Lite, "Cadastro Observações")]
-        CadastroObservacao = 109,
+        CadastroObservacao = 110,
 
         [Modulo(PlanoEnum.Lite, "Nota Fiscal Entrada")]
-        NotaFiscalEntrada = 110,
+        NotaFiscalEntrada = 111,
 
         [Modulo(PlanoEnum.Lite, "Vendas")]
-        Vendas = 111,
+        Vendas = 112,
 
         [Modulo(PlanoEnum.Lite, "Relatórios")]
-        Relatorios = 112,
+        Relatorios = 113,
 
         [Modulo(PlanoEnum.Lite, "Estoque Movimentações")]
-        EstoqueMovimentacao = 113,
+        EstoqueMovimentacao = 114,
 
-        [Modulo(PlanoEnum.Lite, "Menu")]
-        Menu = 114,
+        [Modulo(PlanoEnum.Lite, "PDV")]
+        PDV = 115,
+
+        [Modulo(PlanoEnum.Lite, "Faturamento - NFe")]
+        FaturamentoNFe = 115,
+
 
         #endregion
 
