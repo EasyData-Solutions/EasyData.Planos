@@ -207,6 +207,9 @@ namespace EasyData.Planos.Enums
         [Modulo(PlanoEnum.Complementos, "Exportar Dados")]
         ExportarDados = 10,
 
+        [Modulo(PlanoEnum.Complementos, "Email")]
+        Email = 11,
+
         #endregion
 
 
