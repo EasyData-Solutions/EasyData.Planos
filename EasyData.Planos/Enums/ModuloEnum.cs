@@ -61,7 +61,7 @@ namespace EasyData.Planos.Enums
         PDV = 115,
 
         [Modulo(PlanoEnum.Lite, "Faturamento - NFe")]
-        FaturamentoNFe = 115,
+        FaturamentoNFe = 116,
 
 
         #endregion
@@ -117,7 +117,7 @@ namespace EasyData.Planos.Enums
         [Modulo(PlanoEnum.Gold, "Campanhas")]
         Campanhas = 305,
 
-        [Modulo(PlanoEnum.Gold, "OrdemFornecimento")]
+        [Modulo(PlanoEnum.Gold, "Ordem Fornecimento")]
         OrdemFornecimento = 306,
 
         [Modulo(PlanoEnum.Gold, "Pedido Administrativo")]
@@ -135,7 +135,7 @@ namespace EasyData.Planos.Enums
         [Modulo(PlanoEnum.Gold, "Carregamento")]
         Carregamento = 311,
 
-        [Modulo(PlanoEnum.Gold, "Manifesto MDFe")]
+        [Modulo(PlanoEnum.Gold, "Manifesto - MDFe")]
         ManifestoMDFe = 312,
 
         [Modulo(PlanoEnum.Gold, "Entrega")]
