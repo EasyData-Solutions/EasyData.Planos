@@ -86,7 +86,7 @@ namespace EasyData.Planos.Enums
         CobrancaCNAB = 207,
 
         [Modulo(PlanoEnum.Start, "Graficos")]
-        Grafico = 208
+        Grafico = 208,
 
         #endregion
 
@@ -136,6 +136,10 @@ namespace EasyData.Planos.Enums
 
         [Modulo(PlanoEnum.Gold, "SPED")]
         SPED = 314,
+
+        [Modulo(PlanoEnum.Gold, "Veiculos")]
+        Veiculos = 315,
+
 
         #endregion
 
