@@ -210,6 +210,9 @@ namespace EasyData.Planos.Enums
         [Modulo(PlanoEnum.Complementos, "Email")]
         Email = 11,
 
+        [Modulo(PlanoEnum.Complementos, "Auditoria Tributária")]
+        AuditoriaTributaria = 12,
+
         #endregion
 
 
