@@ -213,6 +213,9 @@ namespace EasyData.Planos.Enums
         [Modulo(PlanoEnum.Complementos, "Auditoria Tributária")]
         AuditoriaTributaria = 12,
 
+        [Modulo(PlanoEnum.Complementos, "CIOT")]
+        CIOT = 13,
+
         #endregion
 
 
